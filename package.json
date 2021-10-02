@@ -1,6 +1,6 @@
 {
   "name": "@notverywellc/dummy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "dummy",
   "main": "index.js",
   "scripts": {
