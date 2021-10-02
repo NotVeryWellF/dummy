@@ -1,29 +1,30 @@
 {
-  "name": "@notverywellc/dummy",
-  "version": "0.0.5",
-  "description": "dummy",
-  "main": "index.js",
-  "scripts": {
-    "cli-help": "npx notverywellc-cli --help",
-    "cli-init": "npx notverywellc-cli --init",
-    "patch": "npm version patch",
-    "new:version": "npm publish --access public",
-    "new-cli": "npm i @notverywellc/cli@latest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NotVeryWellF/dummy.git"
-  },
-  "author": "NotVeryWellF",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NotVeryWellF/dummy/issues"
-  },
-  "homepage": "https://github.com/NotVeryWellF/dummy#readme",
-  "dependencies": {
-    "@notverywellc/cli": "0.0.9",
-    "@notverywellc/dev-server": "0.0.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "name": "@notverywellc/dummy",
+    "version": "0.0.5",
+    "description": "dummy",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx notverywellc-cli --server",
+        "cli_help": "npx notverywellc-cli --help",
+        "new_version": "npm publish --access public",
+        "new_cli": "npm i @notverywellc/cli@latest",
+        "patch": "npm version patch",
+        "cli_init": "npx notverywellc-cli --init"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NotVeryWellF/dummy.git"
+    },
+    "author": "NotVeryWellF",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NotVeryWellF/dummy/issues"
+    },
+    "homepage": "https://github.com/NotVeryWellF/dummy#readme",
+    "dependencies": {
+        "@notverywellc/cli": "0.0.10",
+        "@notverywellc/dev-server": "0.0.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
 }
