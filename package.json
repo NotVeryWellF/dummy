@@ -4,7 +4,10 @@
   "description": "dummy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cli-help": "npx notverywellc-cli --help",
+    "cli-init": "npx notverywellc-cli --init",
+    "patch": "npm version patch",
+    "new:version": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,6 @@
   },
   "homepage": "https://github.com/NotVeryWellF/dummy#readme",
   "dependencies": {
-    "@notverywellc/cli": "0.0.5"
+    "@notverywellc/cli": "0.0.6"
   }
 }
