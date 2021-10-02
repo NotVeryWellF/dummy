@@ -7,7 +7,8 @@
     "cli-help": "npx notverywellc-cli --help",
     "cli-init": "npx notverywellc-cli --init",
     "patch": "npm version patch",
-    "new:version": "npm publish --access public"
+    "new:version": "npm publish --access public",
+    "new-cli": "npm i @notverywellc/cli@latest"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,8 @@
   },
   "homepage": "https://github.com/NotVeryWellF/dummy#readme",
   "dependencies": {
-    "@notverywellc/cli": "0.0.8",
-    "@notverywellc/dev-server": "0.0.1",
+    "@notverywellc/cli": "0.0.9",
+    "@notverywellc/dev-server": "0.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
